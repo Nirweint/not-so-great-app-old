@@ -13,9 +13,9 @@ code {
 }
 
 .wrapper {
-  padding-top: 4rem;
+  padding: 2rem;
   margin: 0 auto;
-  width: 600px;
+  max-width: 700px;
 }
 
 .rm {
@@ -23,10 +23,13 @@ code {
   border-radius: 50%;
   color: #fff;
   border: none;
+
+  
 }
 
 .rm:hover {
-  background-color: red;
+  background-color:#3F51B5;
+  color:#fff;
 }
 
 .done {
@@ -69,4 +72,24 @@ code {
   100% {
     transform: rotate(360deg);
   }
+}
+
+/*  BUTTONS  */
+
+.btn {
+  margin-left: 5px;
+  padding:5px;
+  border:none;
+  background-color:#3F51B5;
+  color:#fff;
+  border-radius:5px;
+}
+
+.btn:hover {
+  background-color:slateblue;
+  transition: .3s ease-in;
+}
+
+.input-form {
+  width: 100%;
 }
