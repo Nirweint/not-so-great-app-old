@@ -17,3 +17,17 @@
     background-color: #fff;
     height: 200px;
 }
+
+.modal-btn {
+    padding:5px;
+    border:none;
+    background-color:#3F51B5;
+    color:#fff;
+    border-radius:5px;
+    margin-bottom: 5px;
+  }
+  
+  .modal-btn:hover {
+    background-color:slateblue;
+    transition: .3s ease-in;
+  }

@@ -30,11 +30,13 @@ function AddTodo({ onCreate }) {
         <form
             style={{
                 marginBottom: "1rem",
+                display: 'flex',
+                justifyContent: 'space-between'
             }}
             onSubmit={submitHandler}
         >
-            <input {...input.bind} />
-            <button type="submit">Add todo</button>
+            <input className="input-form" type="text" {...input.bind} />
+            <button className="btn" type="submit">Add</button>
         </form>
     );
 }
